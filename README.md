@@ -15,7 +15,7 @@
 4、ThrowsAdvice<br/>
 并且支持introduction(Mixin)。<br/>
    
-由于基于Dynamic Proxy技术，所以，NestleAOP只支持在interface中签署的method的拦截。<br/>
+基于Dynamic Proxy技术，所以NestleAOP只支持interface的method的拦截。<br/>
 而一些主流AOP框架支持的特性，譬如：<br/>
 1、支持class 成员函数（member function）的拦截<br/>
 2、支持class成员变量(member variable)的拦截等等。<br/>
