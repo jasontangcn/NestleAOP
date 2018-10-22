@@ -12,7 +12,7 @@
 1、BeforeAdvice<br/>
 2、AfterReturnAdvice<br/>
 3、AroundAdvice<br/>
-4、ThrowsAdvice)<br/>
+4、ThrowsAdvice<br/>
 并且支持introduction(Mixin)。<br/>
    
 由于基于Dynamic Proxy技术，所以，NestleAOP只支持在interface中签署的method的拦截。<br/>
